@@ -237,6 +237,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -284,8 +285,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -425,26 +426,35 @@
     "top_level_sheets": [
       {
         "filename": "Theremin.kicad_sch",
-        "name": "Root",
+        "name": "Output",
         "uuid": "6b3a9fa9-e159-4faf-a353-4909f08baa0f"
       },
       {
         "filename": "microcontroller.kicad_sch",
         "name": "Microcontroller",
         "uuid": "2897d5a2-d840-4ffb-b873-49c964a94bfc"
+      },
+      {
+        "filename": "input.kicad_sch",
+        "name": "Input",
+        "uuid": "7d7c5c01-a566-482f-a345-f6f61ad3032d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR33-36,#PWR39-40,C17,J2-3,R13,U3",
     "variants": []
   },
   "sheets": [
     [
-      "6b3a9fa9-e159-4faf-a353-4909f08baa0f",
-      "Root"
-    ],
-    [
       "2897d5a2-d840-4ffb-b873-49c964a94bfc",
       "Microcontroller"
+    ],
+    [
+      "6b3a9fa9-e159-4faf-a353-4909f08baa0f",
+      "Output"
+    ],
+    [
+      "7d7c5c01-a566-482f-a345-f6f61ad3032d",
+      "Input"
     ]
   ],
   "text_variables": {},
