@@ -10098,7 +10098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Eclectronics:TL3301AFxxxxJ"
+		(property "Footprint" "Eclectronics:TL3301NFxxxxJ"
 			(at 49.53 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -10354,7 +10354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Eclectronics:RP2354B"
+		(property "Footprint" "Eclectronics:RP2350A_QFN-60_EP_7.75x7.75_Pitch0.4mm"
 			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
