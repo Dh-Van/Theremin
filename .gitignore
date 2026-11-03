@@ -1,0 +1,47 @@
+# KiCad .gitignore
+
+# Backups and autosaves
+*.bak
+*.bck
+*.000
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-backups/
+_autosave-*
+\#auto_saved_files#
+*-save.pro
+*-save.kicad_pcb
+*~
+
+# Lock files (created while a file is open in KiCad)
+~*.lck
+*.lck
+
+# Local per-user project settings (window layout, visible layers, etc.)
+*.kicad_prl
+
+# Caches
+fp-info-cache
+*.tmp
+
+# Generated netlists and autorouter files
+*.net
+*.dsn
+*.ses
+
+# Simulation output
+*.raw
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Manufacturing outputs (uncomment if you regenerate these rather than commit them)
+# gerbers/
+# *.gbr
+# *.drl
+# *.pos
+# fabrication/
+# production/
