@@ -1005,195 +1005,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Eclectronics:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1468,10 +1279,10 @@
 		(uuid "3716233d-c280-4dac-aac7-45be94a1881b")
 	)
 	(junction
-		(at 88.9 66.04)
+		(at 74.93 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf941ced-75d4-43cc-91af-67b7ea90c58c")
+		(uuid "d175bb75-7a29-4a03-bbc5-765eb390db11")
 	)
 	(junction
 		(at 102.87 66.04)
@@ -1491,7 +1302,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 90.17 66.04)
+			(xy 85.09 66.04) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1531,6 +1342,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 76.2) (xy 74.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341f5933-c5e8-4860-95f2-dab6e25b4c6e")
+	)
+	(wire
+		(pts
 			(xy 64.77 68.58) (xy 64.77 74.93)
 		)
 		(stroke
@@ -1538,6 +1359,16 @@
 			(type default)
 		)
 		(uuid "414b1a67-025a-46e2-b16b-6fc3dfe15de7")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f52230-a7cd-47b2-b8b4-1dcdbb892f41")
 	)
 	(wire
 		(pts
@@ -1571,16 +1402,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 66.04) (xy 88.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "964f5f31-c7b6-4069-bd6b-beac0aa60c46")
-	)
-	(wire
-		(pts
 			(xy 102.87 66.04) (xy 102.87 68.58)
 		)
 		(stroke
@@ -1588,6 +1409,16 @@
 			(type default)
 		)
 		(uuid "988b6870-0854-4f4b-a922-8d24daaf893b")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 88.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12d7399-2ace-4cef-84d2-b7b6b70a8777")
 	)
 	(wire
 		(pts
@@ -1601,17 +1432,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 71.12) (xy 88.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bebd92a4-3503-4a67-baf1-dfdc3eb2b47b")
-	)
-	(wire
-		(pts
-			(xy 74.93 73.66) (xy 74.93 77.47)
+			(xy 74.93 73.66) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1638,16 +1459,6 @@
 			(type default)
 		)
 		(uuid "cf0cf9ec-daea-4481-a8e0-ab0d6adb11da")
-	)
-	(wire
-		(pts
-			(xy 88.9 71.12) (xy 88.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac40a34-5071-4a39-a81f-374c1eb31b2e")
 	)
 	(wire
 		(pts
@@ -1689,6 +1500,16 @@
 		)
 		(uuid "f131b293-c798-4c07-97df-7d2faaf5dc0b")
 	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa36cc1-cffb-41db-8dd0-1f34f06e2f0b")
+	)
 	(label "GPIO4"
 		(at 40.64 66.04 180)
 		(effects
@@ -1721,7 +1542,7 @@
 		(dnp no)
 		(uuid "0a169cca-6464-42ad-97d4-2329fe30126c")
 		(property "Reference" "U3"
-			(at 85.344 73.66 0)
+			(at 86.36 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1731,7 +1552,7 @@
 			)
 		)
 		(property "Value" "MCP4725xxx-xCH"
-			(at 86.106 75.946 0)
+			(at 87.122 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2363,7 +2184,7 @@
 	)
 	(symbol
 		(lib_id "Eclectronics:GND")
-		(at 74.93 77.47 0)
+		(at 74.93 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2374,7 +2195,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad6561b4-493c-41b1-a3e4-f4617abcd223")
 		(property "Reference" "#PWR039"
-			(at 74.93 83.82 0)
+			(at 74.93 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 82.55 0)
+			(at 74.93 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2395,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 77.47 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +2227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 77.47 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 77.47 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,85 +2255,6 @@
 			(project "Theremin"
 				(path "/6b3a9fa9-e159-4faf-a353-4909f08baa0f"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Eclectronics:R_US")
-		(at 102.87 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d017e782-ffce-438c-aec6-96f7a3157348")
-		(property "Reference" "R13"
-			(at 103.124 76.708 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 103.378 74.168 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 103.124 70.104 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 102.87 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b50c2c0c-988b-4196-9f99-715c128aef6b")
-		)
-		(pin "1"
-			(uuid "10a904ac-d6fd-45de-8baa-6ea1d3675d51")
-		)
-		(instances
-			(project "Theremin"
-				(path "/6b3a9fa9-e159-4faf-a353-4909f08baa0f"
-					(reference "R13")
 					(unit 1)
 				)
 			)
