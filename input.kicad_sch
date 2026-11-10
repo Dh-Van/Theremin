@@ -141,6 +141,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Antenna"
 			(pin_numbers
 				(hide yes)
@@ -1015,6 +1201,18 @@
 		(uuid "42c91902-82de-479f-ade9-a7b3631b6c0d")
 	)
 	(junction
+		(at 139.7 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4370f499-b51f-4b62-81b6-b90c61f8967e")
+	)
+	(junction
+		(at 165.1 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "510c63ea-fe46-4f97-b8aa-a62631497342")
+	)
+	(junction
 		(at 88.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1066,6 +1264,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 55.88) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2cb6dc-13d4-4108-a450-e3943f0bc91e")
+	)
+	(wire
+		(pts
 			(xy 139.7 50.8) (xy 139.7 60.96)
 		)
 		(stroke
@@ -1073,16 +1281,6 @@
 			(type default)
 		)
 		(uuid "4e5fc649-2fcf-4261-9798-4eb7b7d905c0")
-	)
-	(wire
-		(pts
-			(xy 113.03 71.12) (xy 119.38 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d6ac0c-86ac-4975-b751-b03f2230a9b7")
 	)
 	(wire
 		(pts
@@ -1096,13 +1294,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 113.03 73.66)
+			(xy 113.03 71.12) (xy 144.78 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "654eb1a4-6a11-4927-b384-3745684a48d3")
+		(uuid "6ee4b906-cadb-4545-bdfa-e3578ec23198")
 	)
 	(wire
 		(pts
@@ -1136,6 +1334,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 55.88) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefe6ca4-4720-49ad-b8a4-3dbcb6cb9114")
+	)
+	(wire
+		(pts
 			(xy 102.87 40.64) (xy 102.87 46.99)
 		)
 		(stroke
@@ -1153,16 +1361,6 @@
 			(type default)
 		)
 		(uuid "d1dc8549-3a52-4d4e-a8d8-0b14d9f52bf1")
-	)
-	(wire
-		(pts
-			(xy 114.3 76.2) (xy 114.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15b85c5-a0e8-4d39-b212-c6bd122e166e")
 	)
 	(wire
 		(pts
@@ -1196,16 +1394,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 71.12) (xy 119.38 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f684453c-9066-49fc-9a70-8ef389a08383")
-	)
-	(wire
-		(pts
 			(xy 139.7 60.96) (xy 113.03 60.96)
 		)
 		(stroke
@@ -1223,6 +1411,16 @@
 			(type default)
 		)
 		(uuid "ff5a6d0e-26fc-4068-b9fa-300cc2a357e4")
+	)
+	(wire
+		(pts
+			(xy 113.03 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb1ab00-11bc-4d65-abe2-013b1c864c0d")
 	)
 	(label "GPIO7"
 		(at 68.58 60.96 0)
@@ -1323,8 +1521,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
-		(at 139.7 45.72 0)
+		(lib_id "Connector:Conn_Coaxial")
+		(at 170.18 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1333,9 +1531,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12224e36-bb5e-4d94-9609-b88a8f146f9e")
-		(property "Reference" "AE1"
-			(at 142.24 45.0849 0)
+		(uuid "0d9a54b7-1aeb-4b95-a320-7bc65fa486f6")
+		(property "Reference" "J6"
+			(at 173.99 49.8231 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1345,8 +1543,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pitch Antenna"
-			(at 142.24 47.6249 0)
+		(property "Value" "Conn_Coaxial"
+			(at 173.99 52.3631 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1356,8 +1554,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Theremin:Flat_Antenna_Mount"
-			(at 139.7 45.72 0)
+		(property "Footprint" ""
+			(at 170.18 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,7 +1566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 45.72 0)
+			(at 170.18 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1378,8 +1576,8 @@
 				)
 			)
 		)
-		(property "Description" "Antenna"
-			(at 139.7 45.72 0)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 170.18 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1390,12 +1588,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee298ccd-b844-40ee-b435-d2c7f96257e7")
+			(uuid "1b5493c2-15d5-46cf-86c0-edad76794246")
+		)
+		(pin "2"
+			(uuid "9d8f1b9e-5973-459c-8a8e-6f1e8765e38e")
 		)
 		(instances
 			(project "Theremin"
 				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
-					(reference "AE1")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 165.1 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "239cadef-523d-46c5-a9e1-99dd8b75a7f4")
+		(property "Reference" "AE2"
+			(at 167.64 45.0849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Volume Input"
+			(at 167.64 47.6249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 165.1 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54f0b670-6046-4890-b34c-20cfcf629573")
+		)
+		(instances
+			(project "Theremin"
+				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
+					(reference "AE2")
 					(unit 1)
 				)
 			)
@@ -1747,8 +2027,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 76.2 0)
+		(lib_id "Connector:Conn_Coaxial")
+		(at 144.78 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1757,30 +2037,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "683f08ee-f6b4-454a-b732-95db393c09d7")
-		(property "Reference" "#PWR049"
-			(at 119.38 82.55 0)
-			(hide yes)
+		(uuid "5f3b19b0-d562-4a18-a60c-0f41227c7d39")
+		(property "Reference" "J5"
+			(at 148.59 49.8231 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 119.38 81.28 0)
+		(property "Value" "Conn_Coaxial"
+			(at 148.59 52.3631 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 76.2 0)
+			(at 144.78 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +2072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 76.2 0)
+			(at 144.78 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1801,8 +2082,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 76.2 0)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 144.78 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1813,12 +2094,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "966fa87e-08d3-47b2-bb14-cb16ce5b163c")
+			(uuid "2096b7b9-4e2d-4397-a4b5-3bd4d0075c56")
+		)
+		(pin "2"
+			(uuid "8d8c5950-d4c3-4d77-86f5-1e5e6f782d6e")
 		)
 		(instances
 			(project "Theremin"
 				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
-					(reference "#PWR049")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1904,7 +2188,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 165.1 45.72 0)
+		(at 139.7 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1913,9 +2197,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "988ebd7b-2724-479c-9aca-1de9a0c62e72")
-		(property "Reference" "AE2"
-			(at 167.64 45.0849 0)
+		(uuid "899209a7-daba-4b5d-afd5-78aa191b5e8c")
+		(property "Reference" "AE1"
+			(at 142.24 45.0849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1925,8 +2209,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Volume Antenna"
-			(at 167.64 47.6249 0)
+		(property "Value" "Pitch Input"
+			(at 142.24 47.6249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1936,8 +2220,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Theremin:RIght_Angle_Antenna_Mount"
-			(at 165.1 45.72 0)
+		(property "Footprint" ""
+			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1948,7 +2232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 45.72 0)
+			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1959,7 +2243,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 165.1 45.72 0)
+			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1970,12 +2254,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b536f1ae-09c0-44b5-bd56-c0c7d48cf410")
+			(uuid "5f3330d2-ce69-495d-97de-ab639c7931b3")
 		)
 		(instances
 			(project "Theremin"
 				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
-					(reference "AE2")
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -2056,84 +2340,6 @@
 			(project "Theremin"
 				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bccaa332-79ad-486e-955a-2a3f640b45f0")
-		(property "Reference" "#PWR048"
-			(at 114.3 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d45f7ef-1719-4d02-bf48-92ef395cc427")
-		)
-		(instances
-			(project "Theremin"
-				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
