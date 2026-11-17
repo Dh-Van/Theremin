@@ -37,6 +37,7 @@ fp-info-cache
 .DS_Store
 Thumbs.db
 desktop.ini
+.history/
 
 # Manufacturing outputs (uncomment if you regenerate these rather than commit them)
 # gerbers/
