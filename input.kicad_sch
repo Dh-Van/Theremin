@@ -1939,7 +1939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.7kΩ"
+		(property "Value" "4.7kΩ"
 			(at 54.61 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2922,7 +2922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.7kΩ"
+		(property "Value" "4.7kΩ"
 			(at 67.31 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
