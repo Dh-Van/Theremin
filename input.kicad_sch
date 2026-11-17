@@ -1363,6 +1363,12 @@
 		(color 0 0 0 0)
 		(uuid "cafebceb-07fb-4fb0-9d65-46e2f8fec9a1")
 	)
+	(junction
+		(at 161.29 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f67cbdf3-3d5e-4368-b9c1-ec744fecbef9")
+	)
 	(no_connect
 		(at 88.9 69.85)
 		(uuid "42582f59-c3f3-4f76-8553-e245be6ad75e")
@@ -1483,6 +1489,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 46.99) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55290c1-a70a-4e29-b129-00fbeae61587")
+	)
+	(wire
+		(pts
 			(xy 78.74 44.45) (xy 78.74 50.8)
 		)
 		(stroke
@@ -1500,16 +1516,6 @@
 			(type default)
 		)
 		(uuid "eb76ed52-1d23-44cc-a0e3-484f55613fc9")
-	)
-	(wire
-		(pts
-			(xy 161.29 38.1) (xy 166.37 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec3b8b3f-70ff-4635-9d19-cbaeed6f0a7f")
 	)
 	(wire
 		(pts
@@ -1761,7 +1767,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 171.45 38.1 0)
+		(at 161.29 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1772,7 +1778,7 @@
 		(fields_autoplaced yes)
 		(uuid "239cadef-523d-46c5-a9e1-99dd8b75a7f4")
 		(property "Reference" "AE2"
-			(at 173.99 37.4649 0)
+			(at 163.83 41.2749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1783,7 +1789,7 @@
 			)
 		)
 		(property "Value" "Volume Input"
-			(at 173.99 40.0049 0)
+			(at 163.83 43.8149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1794,7 +1800,7 @@
 			)
 		)
 		(property "Footprint" "Theremin:Flat_Antenna_Mount"
-			(at 171.45 38.1 0)
+			(at 161.29 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1805,7 +1811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 38.1 0)
+			(at 161.29 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1816,7 +1822,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 171.45 38.1 0)
+			(at 161.29 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2577,165 +2583,6 @@
 			(project "Theremin"
 				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
 					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 161.29 38.1 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98805685-d463-43dd-9fad-918069fa5485")
-		(property "Reference" "#PWR049"
-			(at 154.94 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 160.02 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 161.29 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "107c92d3-a0d6-4c45-aedc-5628525056f2")
-		)
-		(instances
-			(project "Theremin"
-				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 166.37 43.18 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9fa3663-25a4-47b7-8f52-06aab62aa837")
-		(property "Reference" "J8"
-			(at 178.308 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 178.308 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Theremin:Coax_Connector_Right_Angle"
-			(at 166.37 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 166.37 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df6e17d5-ecdb-4be9-95aa-a9153f2cb89d")
-		)
-		(pin "2"
-			(uuid "e932e813-a5c2-46be-8598-ef360d52cf60")
-		)
-		(instances
-			(project "Theremin"
-				(path "/7d7c5c01-a566-482f-a345-f6f61ad3032d"
-					(reference "J8")
 					(unit 1)
 				)
 			)
