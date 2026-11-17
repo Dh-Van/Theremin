@@ -6753,16 +6753,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 66.04) (xy 232.41 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56759227-4669-4494-a639-bb2f67f06dfd")
-	)
-	(wire
-		(pts
 			(xy 87.63 99.06) (xy 88.9 99.06)
 		)
 		(stroke
@@ -7313,16 +7303,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 83.82) (xy 232.41 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af6f6e44-d3ca-48d8-9f16-e63c1a09b1ab")
-	)
-	(wire
-		(pts
 			(xy 196.85 30.48) (xy 199.39 30.48)
 		)
 		(stroke
@@ -7821,16 +7801,6 @@
 		)
 		(uuid "3bfae95f-deee-426c-9cb8-feb5a05f0925")
 	)
-	(label "GPIO17"
-		(at 222.25 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f7389cd-ea9e-466e-a4f2-2575d3a12e48")
-	)
 	(label "BOOT"
 		(at 90.17 68.58 180)
 		(effects
@@ -8031,7 +8001,7 @@
 		)
 		(uuid "f3667960-ef2f-4414-9bb8-dbb56add0918")
 	)
-	(label "GPIO16"
+	(label "GPIO12"
 		(at 222.25 81.28 180)
 		(effects
 			(font
@@ -8060,16 +8030,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9414f8a-8446-4c83-86d6-1f7948ce0c2f")
-	)
-	(label "GPIO18"
-		(at 222.25 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa53d7cf-7798-4909-9121-e2a298d0dc3e")
 	)
 	(global_label "GPIO5"
 		(shape input)
@@ -10868,6 +10828,84 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 228.6 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44008244-af30-464b-b85a-f27e7070182c")
+		(property "Reference" "R16"
+			(at 228.6 63.754 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 228.6 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 67.818 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4499d53-72f2-41dd-964e-c33327fc00fa")
+		)
+		(pin "2"
+			(uuid "d34a3291-7ddd-465b-b36d-034923d8b25e")
+		)
+		(instances
+			(project "Theremin"
+				(path "/2897d5a2-d840-4ffb-b873-49c964a94bfc"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 166.37 160.02 90)
 		(unit 1)
 		(body_style 1)
@@ -11371,6 +11409,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 228.6 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ecbadf2-0a3e-4eb8-b712-9c893aa6ff50")
+		(property "Reference" "R13"
+			(at 228.6 81.534 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 228.6 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 85.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ce51acc-bacc-41f9-b08d-63204d711e4b")
+		)
+		(pin "2"
+			(uuid "6ce26046-bbd6-4224-a65f-8027f16ad626")
+		)
+		(instances
+			(project "Theremin"
+				(path "/2897d5a2-d840-4ffb-b873-49c964a94bfc"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 83.82 99.06 90)
 		(unit 1)
@@ -11621,6 +11737,164 @@
 			(project "microcontroller"
 				(path "/4f591037-ed43-4af9-bdf6-bcf7a7295c03"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6816e190-07d4-4d6f-b750-a7455229556d")
+		(property "Reference" "#PWR039"
+			(at 228.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 220.98 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 224.79 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b53b34c8-a46e-4727-98b9-5c4aa07597a9")
+		)
+		(instances
+			(project "Theremin"
+				(path "/2897d5a2-d840-4ffb-b873-49c964a94bfc"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b810384-6db2-454d-bf9d-be9d9be85dd6")
+		(property "Reference" "#PWR036"
+			(at 228.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 220.98 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 224.79 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "973d67d1-8ee8-465a-ae11-d65bd1d4897c")
+		)
+		(instances
+			(project "Theremin"
+				(path "/2897d5a2-d840-4ffb-b873-49c964a94bfc"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
